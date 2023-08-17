@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Program1/dz6.csproj",
+                "${workspaceFolder}/dz6.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Program1/dz6.csproj",
+                "${workspaceFolder}/dz6.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Program1/dz6.csproj"
+                "${workspaceFolder}/dz6.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
