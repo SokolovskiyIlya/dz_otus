@@ -16,7 +16,7 @@ class PlanetCatalog
     public int GetPlanetCounter { get; set; }
     public PlanetCatalog()
     {
-        var venus = new Planet("Венера", 2, 38025, new Planet());
+        var venus = new Planet("Венера", 2, 38025, null);
         var earth = new Planet("Земля", 3, 40075, venus);
         var mars = new Planet("Марс", 4, 21326, earth);
         PlanetsList = new List<Planet>() { venus, earth, mars };
@@ -49,14 +49,11 @@ class Planet
     public int Number { get; set; }
     public int Length { get; set; }
     public Planet? Previous { get; set; }
-    public Planet(string name, int number, int length, Planet previous)
+    public Planet(string name, int number, int length, Planet? previous)
     {
         Name = name;
         Number = number;
         Length = length;
         Previous = previous;
-    }
-    public Planet()
-    {
     }
 }
