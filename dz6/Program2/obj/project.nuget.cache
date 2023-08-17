@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "KcbRo9RQJYdjQXnayolJFxKNto8DG71IGAFJv4aeeBtIMixa73tr24l0bwg1VFFJaURF0vt0AHXSbXx51v+wQA==",
+  "dgSpecHash": "c5/svC9j46t0yUjWyMMeXTmOpCqyQToUh5S+Z/ADtKFRYKOxitkx/RfTCwO8LETM++9yehObYJybol7JZtiYUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz6\\Program2\\Program2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Akihabara\\Documents\\GitHub\\dz_otus\\dz6\\Program2\\Program2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Akihabara\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.5\\microsoft.netcore.app.ref.7.0.5.nupkg.sha512",
+    "C:\\Users\\Akihabara\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.5\\microsoft.windowsdesktop.app.ref.7.0.5.nupkg.sha512",
+    "C:\\Users\\Akihabara\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.5\\microsoft.aspnetcore.app.ref.7.0.5.nupkg.sha512",
+    "C:\\Users\\Akihabara\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.5\\microsoft.netcore.app.host.win-x64.7.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

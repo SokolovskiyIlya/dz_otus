@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz6\\Program2\\Program2.csproj": {}
+    "C:\\Users\\Akihabara\\Documents\\GitHub\\dz_otus\\dz6\\Program2\\Program2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz6\\Program2\\Program2.csproj": {
+    "C:\\Users\\Akihabara\\Documents\\GitHub\\dz_otus\\dz6\\Program2\\Program2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz6\\Program2\\Program2.csproj",
+        "projectUniqueName": "C:\\Users\\Akihabara\\Documents\\GitHub\\dz_otus\\dz6\\Program2\\Program2.csproj",
         "projectName": "Program2",
-        "projectPath": "C:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz6\\Program2\\Program2.csproj",
-        "packagesPath": "C:\\Users\\ISokolovskiy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz6\\Program2\\obj\\",
+        "projectPath": "C:\\Users\\Akihabara\\Documents\\GitHub\\dz_otus\\dz6\\Program2\\Program2.csproj",
+        "packagesPath": "C:\\Users\\Akihabara\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Akihabara\\Documents\\GitHub\\dz_otus\\dz6\\Program2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ISokolovskiy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Akihabara\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -50,12 +50,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.5, 7.0.5]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.5, 7.0.5]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.5, 7.0.5]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.5, 7.0.5]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.5.23303.2\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -7,7 +7,18 @@ class Program2
     static void Main()
     {
       var catalog = new PlanetCatalog();
-      List<object> results = new List<object>(){catalog.GetPlanet("Земля"), catalog.GetPlanet("Лимония"), catalog.GetPlanet("Марс")};
+      List<(int? number,int? length,string error)> results = new List<(int? number,int? length,string error)>(){catalog.GetPlanet("Земля"), catalog.GetPlanet("Лимония"), catalog.GetPlanet("Марс")};
+      foreach (var result in results)
+      {
+        if (result.number is null)
+        {
+            Console.WriteLine(result.error);
+        }
+        else
+        {
+            Console.WriteLine(catalog.PlanetsList.First(x=>x.Number==result.number).Name+" "+result.number.ToString()+" "+result.length.ToString()+" "+result.error);
+        }
+      }
     }
 }
 class PlanetCatalog
@@ -25,7 +36,7 @@ class PlanetCatalog
     public (int? number, int? length, string error) GetPlanet(string name)
     {
         GetPlanetCounter = GetPlanetCounter + 1;
-        if (GetPlanetCounter % 3 == 0)
+        if (GetPlanetCounter % 3 != 0)
         {
             try
             {
