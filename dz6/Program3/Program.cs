@@ -68,7 +68,40 @@ class Program3
         {
             return "Вы спрашиваете слишком часто";
         }
-        })};
+        }),
+        catalog.GetPlanet("Земля", i =>
+      {
+        if (i=="Лимония")
+        {
+            return "Это запретная планета";
+        }
+        else
+        {
+            return null;
+        }
+      }),
+              catalog.GetPlanet("Лимония", i =>
+      {
+        if (i=="Лимония")
+        {
+            return "Это запретная планета";
+        }
+        else
+        {
+            return null;
+        }
+      }),
+              catalog.GetPlanet("Марс", i =>
+      {
+        if (i=="Лимония")
+        {
+            return "Это запретная планета";
+        }
+        else
+        {
+            return null;
+        }
+      })};
       foreach (var result in results)
       {
         if (result.number is null)
