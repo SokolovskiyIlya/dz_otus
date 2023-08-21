@@ -1,0 +1,16 @@
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\bin\Debug\net7.0\dz7.exe
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\bin\Debug\net7.0\dz7.deps.json
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\bin\Debug\net7.0\dz7.runtimeconfig.json
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\bin\Debug\net7.0\dz7.dll
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\bin\Debug\net7.0\dz7.pdb
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\obj\Debug\net7.0\dz7.csproj.AssemblyReference.cache
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\obj\Debug\net7.0\dz7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\obj\Debug\net7.0\dz7.AssemblyInfoInputs.cache
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\obj\Debug\net7.0\dz7.AssemblyInfo.cs
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\obj\Debug\net7.0\dz7.csproj.CoreCompileInputs.cache
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\obj\Debug\net7.0\dz7.sourcelink.json
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\obj\Debug\net7.0\dz7.dll
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\obj\Debug\net7.0\refint\dz7.dll
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\obj\Debug\net7.0\dz7.pdb
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\obj\Debug\net7.0\dz7.genruntimeconfig.cache
+C:\Users\Akihabara\Documents\GitHub\dz_otus\dz7\obj\Debug\net7.0\ref\dz7.dll
