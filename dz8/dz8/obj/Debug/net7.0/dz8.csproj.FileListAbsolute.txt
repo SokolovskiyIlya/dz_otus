@@ -1,0 +1,15 @@
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\bin\Debug\net7.0\dz8.exe
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\bin\Debug\net7.0\dz8.deps.json
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\bin\Debug\net7.0\dz8.runtimeconfig.json
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\bin\Debug\net7.0\dz8.dll
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\bin\Debug\net7.0\dz8.pdb
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\obj\Debug\net7.0\dz8.csproj.AssemblyReference.cache
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\obj\Debug\net7.0\dz8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\obj\Debug\net7.0\dz8.AssemblyInfoInputs.cache
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\obj\Debug\net7.0\dz8.AssemblyInfo.cs
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\obj\Debug\net7.0\dz8.csproj.CoreCompileInputs.cache
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\obj\Debug\net7.0\dz8.dll
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\obj\Debug\net7.0\refint\dz8.dll
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\obj\Debug\net7.0\dz8.pdb
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\obj\Debug\net7.0\dz8.genruntimeconfig.cache
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz8\dz8\obj\Debug\net7.0\ref\dz8.dll

@@ -1,33 +1,69 @@
-﻿namespace dz8;
+﻿using System.Xml.Linq;
+
+namespace dz8;
 
 class Program
 {
     static void Main()
     {
-        Worker root = null;
         while (true)
         {
-            var name = Console.ReadLine();
-            var salary = double.Parse(Console.ReadLine());
-            if (String.IsNullOrEmpty(name))
+            Worker root = null;
+            string name = string.Empty;
+            int salary = 0;
+            while (true)
             {
-                break;
-            }
-            if (root == null)
-            {
-                root = new Worker()
+                Console.WriteLine("Enter worker's name. Type nothing to end");
+                name = Console.ReadLine();
+                if (String.IsNullOrEmpty(name))
                 {
-                    Salary = salary,
-                    Name = name
-                };
-            }
-            else
-            {
-                AddNode(root, new Worker
+                    break;
+                }
+                Console.WriteLine("Enter worker's salary.");
+                salary = int.Parse(Console.ReadLine());
+                if (root == null)
                 {
-                    Salary = salary,
-                    Name = name
-                });
+                    root = new Worker()
+                    {
+                        Salary = salary,
+                        Name = name
+                    };
+                }
+                else
+                {
+                    AddNode(root, new Worker
+                    {
+                        Salary = salary,
+                        Name = name
+                    });
+                }
+            }
+            Console.WriteLine("Sorted workers:");
+            Traverse(root);
+            while (true)
+            {
+                Console.Write("Введите зарплату, которую хотите найти: ");
+                while (!int.TryParse(Console.ReadLine(), out salary))
+                {
+                    Console.WriteLine("Введите целочисленное значение");
+                    Console.Write("Введите зарплату, которую хотите найти: ");
+                }
+                var employeeName = FindEmployeeBySalary(root, salary);
+                Console.WriteLine(employeeName);
+
+                int choise = 0;
+                Console.WriteLine("Введите 0 для начала программы или 1 для повторного поиска зарплаты:");
+                while (!int.TryParse(Console.ReadLine(), out choise))
+                {
+                    Console.WriteLine("Введите значение (0 или 1)");
+                    Console.WriteLine("Введите 0 для перезапуска программы или 1 для повторного поиска зарплаты:");
+                }
+                if (choise == 1)
+                    continue;
+                else
+                {
+                    break;
+                }
             }
         }
     }
@@ -55,6 +91,39 @@ class Program
             {
                 root.Right = toAdd;
             }
+        }
+    }
+    static void Traverse(Worker originiNode)
+    {
+
+        if (originiNode.Left != null)
+        {
+            Traverse(originiNode.Left);
+        }
+        Console.WriteLine(String.Format("Имя сотрудника: {0}. Зарплата сотрудника: {1}.", originiNode.Name, originiNode.Salary));
+        if (originiNode.Right != null)
+        {
+            Traverse(originiNode.Right);
+        }
+    }
+    static string FindEmployeeBySalary(Worker root, int salary)
+    {
+        if (root == null)
+        {
+            return "такой сотрудник не найден";
+        }
+
+        if (salary == root.Salary)
+        {
+            return root.Name;
+        }
+        else if (salary < root.Salary)
+        {
+            return FindEmployeeBySalary(root.Left, salary);
+        }
+        else
+        {
+            return FindEmployeeBySalary(root.Right, salary);
         }
     }
 }
