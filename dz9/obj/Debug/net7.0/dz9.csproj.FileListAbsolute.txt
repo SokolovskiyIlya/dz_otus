@@ -1,0 +1,14 @@
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\obj\Debug\net7.0\dz9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\obj\Debug\net7.0\dz9.AssemblyInfoInputs.cache
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\obj\Debug\net7.0\dz9.AssemblyInfo.cs
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\obj\Debug\net7.0\dz9.csproj.CoreCompileInputs.cache
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\bin\Debug\net7.0\dz9.exe
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\bin\Debug\net7.0\dz9.deps.json
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\bin\Debug\net7.0\dz9.runtimeconfig.json
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\bin\Debug\net7.0\dz9.dll
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\bin\Debug\net7.0\dz9.pdb
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\obj\Debug\net7.0\dz9.dll
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\obj\Debug\net7.0\refint\dz9.dll
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\obj\Debug\net7.0\dz9.pdb
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\obj\Debug\net7.0\dz9.genruntimeconfig.cache
+C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz9\obj\Debug\net7.0\ref\dz9.dll

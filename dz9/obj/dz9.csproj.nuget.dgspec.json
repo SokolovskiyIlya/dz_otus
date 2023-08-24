@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz9\\dz9.csproj": {}
+    "C:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz9\\dz9.csproj": {}
   },
   "projects": {
-    "c:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz9\\dz9.csproj": {
+    "C:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz9\\dz9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz9\\dz9.csproj",
+        "projectUniqueName": "C:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz9\\dz9.csproj",
         "projectName": "dz9",
-        "projectPath": "c:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz9\\dz9.csproj",
+        "projectPath": "C:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz9\\dz9.csproj",
         "packagesPath": "C:\\Users\\ISokolovskiy\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz9\\obj\\",
+        "outputPath": "C:\\Users\\ISokolovskiy\\Documents\\GitHub\\dz_otus\\dz9\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ISokolovskiy\\AppData\\Roaming\\NuGet\\NuGet.Config",
