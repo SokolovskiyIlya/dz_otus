@@ -1,8 +1,9 @@
-﻿namespace dz9;
-
-class Program
+﻿namespace dz9
 {
-    static void Main()
+    internal class Program
     {
+        private static void Main()
+        {
+        }
     }
 }
