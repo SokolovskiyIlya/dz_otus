@@ -17,23 +17,30 @@ class Program
                 name = Console.ReadLine();
                 if (String.IsNullOrEmpty(name))
                 {
+                    if (root == null)
+                    {
+                        return;
+                    }
                     break;
                 }
-                Console.WriteLine("Enter worker's salary.");
                 while (true)
                 {
-                    var readSalary = Console.ReadLine(); 
-                    if (Int32.TryParse(readSalary, out salary))
+                    Console.WriteLine("Enter worker's salary.");
+                    var inputSalary = Console.ReadLine();
+                    if (int.TryParse(inputSalary, out salary))
                     {
                         break;
                     }
-                    Console.WriteLine("Enter worker's salary.(Only int Values)");
                 }
+                if (root == null)
+                {
                     root = new Worker()
                     {
                         Salary = salary,
                         Name = name
                     };
+                }
+                else
                 {
                     AddNode(root, new Worker
                     {

@@ -18,7 +18,6 @@ C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz6\Program1\bin\Debug\net7.0\dz6
 C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz6\Program1\bin\Debug\net7.0\dz6.runtimeconfig.json
 C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz6\Program1\bin\Debug\net7.0\dz6.dll
 C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz6\Program1\bin\Debug\net7.0\dz6.pdb
-C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz6\Program1\obj\Debug\net7.0\dz6.csproj.AssemblyReference.cache
 C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz6\Program1\obj\Debug\net7.0\dz6.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz6\Program1\obj\Debug\net7.0\dz6.AssemblyInfoInputs.cache
 C:\Users\ISokolovskiy\Documents\GitHub\dz_otus\dz6\Program1\obj\Debug\net7.0\dz6.AssemblyInfo.cs
